@@ -34,13 +34,13 @@ Dummy variables like (NA, Unknown ) are replaced for the null values whose missi
 •	We have converted the categorical features 'city', 'gender', 'relevent_experience', 'enrolled_university', 'education_level', 'major_discipline'
 
 From the below graphs we can infer the below insights:
-	The proportion of men who are not looking for a job change far exceeds the proportion of men who are looking for a job change
-	most candidates with relevant experience do not look for job changes in a large proportion
-	in the types of registered courses, most people are not registered for courses and are not willing to look for job changes
-	Most of these groups have a high degree of education 
-	The candidate's major is basically STEM. This shows that many people are not changing industries.
-	Among the groups that do not plan to change jobs, the number of their employer companies is basically between 50-500.
-	The proportion of unchanged jobs exceeds the proportion of changed jobs, and employees who have just joined the company for about a year are less willing to change jobs
+•	The proportion of men who are not looking for a job change far exceeds the proportion of men who are looking for a job change
+•	most candidates with relevant experience do not look for job changes in a large proportion
+•	in the types of registered courses, most people are not registered for courses and are not willing to look for job changes
+•	Most of these groups have a high degree of education 
+•	The candidate's major is basically STEM. This shows that many people are not changing industries.
+•	Among the groups that do not plan to change jobs, the number of their employer companies is basically between 50-500.
+•	The proportion of unchanged jobs exceeds the proportion of changed jobs, and employees who have just joined the company for about a year are less willing to change jobs
 
 We have an imbalanced dataset where there are  many more non job-seekers than job-seekers.
 We note that most job-seekers are Male. This is not all that surprising as in this dataset Males make up the majority of the sample population.
@@ -74,11 +74,11 @@ Our final Logistic Regression model performs well on all metrics, particularly r
 The only downside with the model is that it often predicts that a person is looking for a new role even if they are not. However, on balance, this model should be is still worthy of selection.
 Conclusion:
 Finally, we performed several machine learning algorithms to try to predict whether or not someone would be a job seeker or not. We looked at:
-	SVM
-	Decision Trees
-	Random Forests
-	Logisitic Regression
-	XGBoost
+•	SVM
+•	Decision Trees
+•	Random Forests
+•	Logisitic Regression
+•	XGBoost
 we used SMOTE, and re-trained Logistics Regression & Random Forest models. The Logistic Regression model performed great and we would select this Model 
 
 Decision Making :
